@@ -1,0 +1,12 @@
+--------------|---------|----------|---------|---------|-------------------
+File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+--------------|---------|----------|---------|---------|-------------------
+All files     |   85.71 |    91.66 |   71.42 |   85.71 |
+ App.tsx      |       0 |      100 |       0 |       0 | 10-50
+ functions.ts |   94.73 |    91.66 |     100 |   94.73 | 50
+--------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        5.163 s
+Ran all test suites matching /src\\functions\.test\.ts/i.
