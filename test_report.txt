@@ -10,3 +10,21 @@ Tests:       5 passed, 5 total
 Snapshots:   0 total
 Time:        5.163 s
 Ran all test suites matching /src\\functions\.test\.ts/i.
+
+ PASS  src/arrays.test.ts
+  Testing the array functions
+    √ Testing the bookEndList function (21 ms)
+    √ Testing the tripleNumbers function (21 ms)
+    √ Testing the stringsToIntegers function (32 ms)
+    √ Testing the removeDollars function (12 ms)
+    √ Testing the shoutIfExclaiming function (8 ms)
+    √ Testing the countShortWords function (9 ms)
+    √ Testing the allRGB function (8 ms)
+    √ Testing the makeMath function (7 ms)
+    √ Testing the injectPositive function (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       9 passed, 9 total
+Snapshots:   0 total
+Time:        4.362 s
+Ran all test suites matching /arrays.test.ts/i.
