@@ -1,4 +1,4 @@
-import {
+import tripleNumbers, {
     allRGB,
     bookEndList,
     countShortWords,
@@ -6,8 +6,7 @@ import {
     makeMath,
     removeDollars,
     shoutIfExclaiming,
-    stringsToIntegers,
-    tripleNumbers
+    stringsToIntegers
 } from "./arrays";
 
 describe("Testing the array functions", () => {
