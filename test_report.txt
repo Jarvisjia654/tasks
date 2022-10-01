@@ -2,9 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test
 
-Browserslist: caniuse-lite is outdated. Please run:
-  npx browserslist@latest --update-db
-  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+PASS src/nested.test.ts
 PASS src/arrays.test.ts
 PASS src/objects.test.ts
 PASS src/HtmlCss.test.tsx
@@ -14,18 +12,20 @@ PASS src/App.test.tsx
 ----------------|---------|----------|---------|---------|-------------------
 File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------------|---------|----------|---------|---------|-------------------
-All files       |   96.93 |     92.1 |     100 |   96.84 |                   
- src            |   96.93 |     92.1 |     100 |   96.84 |                   
+All files       |   98.24 |    94.33 |     100 |    98.2 |                   
+ src            |   98.24 |    94.33 |     100 |    98.2 |                   
   App.tsx       |     100 |      100 |     100 |     100 |                   
   arrays.ts     |   98.14 |       95 |     100 |   98.03 | 59                
   functions.ts  |   94.73 |    91.66 |     100 |   94.73 | 50                
+  nested.ts     |     100 |      100 |     100 |     100 |                   
   objects.ts    |   95.65 |    83.33 |     100 |   95.65 | 139               
  src/interfaces |       0 |        0 |       0 |       0 |                   
+  answer.ts     |       0 |        0 |       0 |       0 |                   
   question.ts   |       0 |        0 |       0 |       0 |                   
 ----------------|---------|----------|---------|---------|-------------------
 
-Test Suites: 6 passed, 6 total
-Tests:       33 passed, 33 total
+Test Suites: 7 passed, 7 total
+Tests:       49 passed, 49 total
 Snapshots:   0 total
-Time:        3.916 s
+Time:        6.081 s
 Ran all test suites.
