@@ -23,7 +23,6 @@ function App(): JSX.Element {
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript Yanhao
             </header>
-
             <hr></hr>
             <CheckAnswer expectedAnswer={"42"}></CheckAnswer>
             <hr></hr>
