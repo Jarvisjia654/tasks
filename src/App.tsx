@@ -43,7 +43,7 @@ function App(): JSX.Element {
             ></MultipleChoiceQuestion>
             <hr></hr>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
