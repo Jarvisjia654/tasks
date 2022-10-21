@@ -25,6 +25,24 @@ function App(): JSX.Element {
             </header>
 
             <hr></hr>
+            <CheckAnswer expectedAnswer={"42"}></CheckAnswer>
+            <hr></hr>
+            <hr></hr>
+            <GiveAttempts></GiveAttempts>
+            <hr></hr>
+            <hr></hr>
+            <EditMode></EditMode>
+            <hr></hr>
+            <hr></hr>
+            <ChangeColor></ChangeColor>
+            <hr></hr>
+            <hr></hr>
+            <MultipleChoiceQuestion
+                options={["1", "2", "3"]}
+                expectedAnswer={"2"}
+            ></MultipleChoiceQuestion>
+            <hr></hr>
+            <hr></hr>
             {/* <DoubleHalf></DoubleHalf> */}
             <hr></hr>
             <ChooseTeam></ChooseTeam>
