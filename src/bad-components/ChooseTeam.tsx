@@ -18,6 +18,11 @@ export function ChooseTeam(): JSX.Element {
         if (!team.includes(newMember)) {
             const new_team = [...team, newMember];
             setTeam(new_team);
+            const new_options = [...allOptions];
+            new_options.filter(
+                (option: string): boolean => option != newMember
+            );
+            setAllOptions(new_options);
         }
     }
 
@@ -25,7 +30,6 @@ export function ChooseTeam(): JSX.Element {
         const new_team: string[] = [];
         setTeam(new_team);
     }
-
     return (
         <div>
             <h3>Choose Team</h3>
